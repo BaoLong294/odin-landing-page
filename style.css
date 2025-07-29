@@ -47,3 +47,44 @@ body {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.hero-section {
+  display: flex;
+  padding: 100px;
+  gap: 25px;
+}
+
+.hero-section .hero-content {
+  flex: 1;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+
+.hero-section button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  font-size: 18px;
+}
+
+.hero-section .hero-image-placeholder {
+  background-color: grey;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
