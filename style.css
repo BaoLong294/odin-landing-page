@@ -176,3 +176,12 @@ body {
   border-radius: 5px;
   padding: 5px 30px;
 }
+
+.footer {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 12px;
+  color: #f9faf8;
+}
